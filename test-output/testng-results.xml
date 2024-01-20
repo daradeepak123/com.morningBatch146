@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-13T09:08:51 IST" name="Default suite" finished-at="2024-01-13T09:08:51 IST" duration-ms="48">
+    <groups>
+    </groups>
+    <test started-at="2024-01-13T09:08:51 IST" name="Default test" finished-at="2024-01-13T09:08:51 IST" duration-ms="48">
+      <class name="testLearn.TestClassLearn">
+        <test-method is-config="true" signature="bSuite()[pri:0, instance:testLearn.TestClassLearn@6e171cd7]" started-at="2024-01-13T09:08:51 IST" name="bSuite" finished-at="2024-01-13T09:08:51 IST" duration-ms="15" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)" because "testLearn.TestNgBasics.sheet" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)" because "testLearn.TestNgBasics.sheet" is null
+at testLearn.TestNgBasics.bSuite(TestNgBasics.java:51)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:317)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bSuite -->
+        <test-method is-config="true" signature="btest()[pri:0, instance:testLearn.TestClassLearn@6e171cd7]" started-at="2024-01-13T09:08:51 IST" name="btest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1705117131494" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btest -->
+        <test-method is-config="true" signature="bClass()[pri:0, instance:testLearn.TestClassLearn@6e171cd7]" started-at="2024-01-13T09:08:51 IST" name="bClass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1705117131512" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bClass -->
+        <test-method is-config="true" signature="beforeDashBoard()[pri:0, instance:testLearn.TestClassLearn@6e171cd7]" started-at="2024-01-13T09:08:51 IST" name="beforeDashBoard" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1705117131524" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeDashBoard -->
+        <test-method signature="tstLearn()[pri:0, instance:testLearn.TestClassLearn@6e171cd7]" started-at="2024-01-13T09:08:51 IST" name="tstLearn" finished-at="2024-01-13T09:08:51 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)" because "testLearn.TestNgBasics.sheet" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)" because "testLearn.TestNgBasics.sheet" is null
+at testLearn.TestNgBasics.bSuite(TestNgBasics.java:51)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:317)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tstLearn -->
+        <test-method is-config="true" signature="afterDashBoard()[pri:0, instance:testLearn.TestClassLearn@6e171cd7]" started-at="2024-01-13T09:08:51 IST" name="afterDashBoard" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1705117131531" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterDashBoard -->
+        <test-method is-config="true" signature="aClass()[pri:0, instance:testLearn.TestClassLearn@6e171cd7]" started-at="2024-01-13T09:08:51 IST" name="aClass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1705117131535" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aClass -->
+        <test-method is-config="true" signature="aTest()[pri:0, instance:testLearn.TestClassLearn@6e171cd7]" started-at="2024-01-13T09:08:51 IST" name="aTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1705117131539" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aTest -->
+        <test-method is-config="true" signature="aSUite()[pri:0, instance:testLearn.TestClassLearn@6e171cd7]" started-at="2024-01-13T09:08:51 IST" name="aSUite" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1705117131632" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aSUite -->
+      </class> <!-- testLearn.TestClassLearn -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
