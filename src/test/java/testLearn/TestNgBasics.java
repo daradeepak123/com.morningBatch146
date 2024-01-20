@@ -97,7 +97,10 @@ public class TestNgBasics extends GenricMethods{
 		wb.close();
 	}
 	
-	
+	public void hello()
+	{
+		System.out.println("syso");
+	}
 	
 	
 
