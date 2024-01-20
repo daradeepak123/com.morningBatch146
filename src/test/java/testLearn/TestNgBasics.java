@@ -100,6 +100,7 @@ public class TestNgBasics extends GenricMethods{
 	public void hello()
 	{
 		System.out.println("syso");
+		System.out.println("new addition");
 	}
 	
 	
